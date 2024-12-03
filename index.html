@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Mi primer sitio web</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <header class="header">
+      <img
+        src="/person_24dp_5F6368_FILL0_wght400_GRAD0_opsz24.png"
+        alt="Foto de perfil"
+        class="profile-img"
+      />
+      <h1 class="name">Jorge Leonardo Gamarra Ospino</h1>
+      <h2 class="title">Hoja de vida</h2>
+    </header>
+
+    <main>
+      <section class="intro-section">
+        <h3>Introducción</h3>
+        <p>Bienvenidos a mi página personal...</p>
+      </section>
+
+      <section class="social-section">
+        <h3>Redes sociales</h3>
+        <ul>
+          <li><a href="https://es-la.facebook.com/">Facebook</a></li>
+          <li><a href="https://x.com/__x?mx=2">X</a></li>
+          <li><a href="https://www.instagram.com/">Instagram</a></li>
+        </ul>
+      </section>
+
+      <section class="hobbies-section">
+        <h3>Pasatiempos</h3>
+        <ul>
+          <li>Ver películas</li>
+          <li>Programar</li>
+          <li>Salir a comer</li>
+        </ul>
+      </section>
+
+      <section class="schedule-section">
+        <h3>Horario de la semana y tareas pendientes</h3>
+        <table>
+          <thead>
+            <tr>
+              <th>Hora</th>
+              <th>Lunes</th>
+              <th>Martes</th>
+              <th>Miércoles</th>
+              <th>Jueves</th>
+              <th>Viernes</th>
+              <th>Sábado</th>
+              <th>Domingo</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>08:00 - 09:00</td>
+              <td></td>
+              <td></td>
+              <td>
+                <ol>
+                  <li>Ir al cine</li>
+                </ol>
+              </td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+            </tr>
+            <tr>
+              <td>09:00 - 10:00</td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td>
+                <ol>
+                  <li>Hacer deporte</li>
+                </ol>
+              </td>
+              <td></td>
+            </tr>
+            <tr>
+              <td>10:00 - 11:00</td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td>
+                <ol>
+                  <li>Visitar a hermanos</li>
+                </ol>
+              </td>
+              <td></td>
+              <td></td>
+              <td></td>
+            </tr>
+          </tbody>
+        </table>
+      </section>
+
+      <section class="contact-section">
+        <h3>Contacto</h3>
+        <form id="contactForm">
+          <label for="name">Nombre:</label><br />
+          <input type="text" id="name" name="name" required /><br /><br />
+          <label for="reason">Asunto de contacto:</label><br />
+          <input type="text" id="reason" name="reason" required /><br /><br />
+          <label for="email">Correo electrónico:</label><br />
+          <input type="email" id="email" name="email" required /><br /><br />
+          <input type="submit" value="Enviar" />
+        </form>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <!-- Contenido del pie de página -->
+    </footer>
+  </body>
+</html>
